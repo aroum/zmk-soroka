@@ -32,26 +32,26 @@ map = <
 
         row-gpios 
             = <&gpio 29 GPIO_ACTIVE_HIGH>
-            , <&gpio 28 GPIO_ACTIVE_HIGH>
-            , <&gpio 3  GPIO_ACTIVE_HIGH>
-            , <&gpio 2  GPIO_ACTIVE_HIGH>
+            , <&gpio0 28 GPIO_ACTIVE_HIGH>
+            , <&gpio0 3  GPIO_ACTIVE_HIGH>
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>
             ;
 
         col-gpios 
-            = <&gpio 27 GPIO_ACTIVE_HIGH>
-            , <&gpio 26 GPIO_ACTIVE_HIGH>
-            , <&gpio 15 GPIO_ACTIVE_HIGH>
-            , <&gpio 14 GPIO_ACTIVE_HIGH>
-            , <&gpio 13 GPIO_ACTIVE_HIGH>
-            , <&gpio 12 GPIO_ACTIVE_HIGH>
-            , <&gpio 11 GPIO_ACTIVE_HIGH>
-            , <&gpio 10 GPIO_ACTIVE_HIGH>
-            , <&gpio 9  GPIO_ACTIVE_HIGH>
-            , <&gpio 8  GPIO_ACTIVE_HIGH>
-            , <&gpio 7  GPIO_ACTIVE_HIGH>
-            , <&gpio 6  GPIO_ACTIVE_HIGH>
-            , <&gpio 5  GPIO_ACTIVE_HIGH>
-            , <&gpio 4  GPIO_ACTIVE_HIGH>
+            = <&gpio0 27 GPIO_ACTIVE_HIGH>
+            , <&gpio0 26 GPIO_ACTIVE_HIGH>
+            , <&gpio0 15 GPIO_ACTIVE_HIGH>
+            , <&gpio0 14 GPIO_ACTIVE_HIGH>
+            , <&gpio0 13 GPIO_ACTIVE_HIGH>
+            , <&gpio0 12 GPIO_ACTIVE_HIGH>
+            , <&gpio0 11 GPIO_ACTIVE_HIGH>
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
+            , <&gpio0 9  GPIO_ACTIVE_HIGH>
+            , <&gpio0 8  GPIO_ACTIVE_HIGH>
+            , <&gpio0 7  GPIO_ACTIVE_HIGH>
+            , <&gpio0 6  GPIO_ACTIVE_HIGH>
+            , <&gpio0 5  GPIO_ACTIVE_HIGH>
+            , <&gpio0 4  GPIO_ACTIVE_HIGH>
             ;
         };
 
