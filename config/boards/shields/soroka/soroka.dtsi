@@ -59,7 +59,7 @@ map = <
             compatible = "alps,ec11";
             label = "LEFT_ENCODER";
             a-gpios = <&gpio0  0  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-            b-gpios = <&gpio1  1  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+            b-gpios = <&gpio0  1  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
             resolution = <4>;
             status = "disabled";
         };
