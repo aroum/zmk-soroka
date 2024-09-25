@@ -1,0 +1,13 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+if soroka
+
+config ZMK_KEYBOARD_NAME
+	default "peramidka"
+	
+endif
+
+
+
+config ZMK_SPLIT
+	default n

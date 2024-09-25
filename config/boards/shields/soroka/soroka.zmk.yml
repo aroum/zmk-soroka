@@ -1,0 +1,11 @@
+file_format: "1"
+id: soroka
+name: soroka
+type: shield
+url: https://github.com/kapee1/soroka/
+requires:
+  - rp_pico
+features:
+  - keys
+siblings:
+  - soroka
