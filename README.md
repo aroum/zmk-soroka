@@ -11,4 +11,4 @@ This repository contains the necessary configuration files to customize and run 
 
   ------
 
-![Physical Layouts](kle\soroka_matrix.png)
+![Physical Layouts](/kle/soroka_matrix.png)
