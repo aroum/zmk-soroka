@@ -1,13 +1,24 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 if soroka
+	config ZMK_KEYBOARD_NAME
+		default "Soroka"
+		
+	config ZMK_SPLIT
+		default n
 
-config ZMK_KEYBOARD_NAME
-	default "peramidka"
-	
+	config USB_DEVICE_PRODUCT
+		default Soroka
+
+	config BT_DEVICE_NAME
+		default ZMK_KEYBOARD_NAME
+
+	config USB_DEVICE_VID
+		default 0x0000
+
+	config USB_DEVICE_PID
+		default 0xFEED
+
+	config USB_DEVICE_MANUFACTURER
+		default "aroum"
 endif
-
-
-
-config ZMK_SPLIT
-	default n
