@@ -12,6 +12,12 @@
 #define RAISE   2
 
 / {
+  chosen {
+    zmk,matrix_transform = &split_space_3_1_3_transform;
+  };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
         default_layer {

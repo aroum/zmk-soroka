@@ -11,6 +11,15 @@
 #define LOWER   1
 #define RAISE   2
 
+&lt { quick-tap-ms = <200>; };
+&mt { quick-tap-ms = <200>; };
+
+/ {
+  chosen {
+    zmk,matrix_transform = &split_space_1_225_275_1_transform;
+  };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
