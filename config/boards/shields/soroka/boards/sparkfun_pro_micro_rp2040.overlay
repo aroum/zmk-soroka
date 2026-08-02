@@ -36,8 +36,8 @@
             chain-length = <25>; /* number of LEDs */
             spi-one-frame = <0x70>;
             spi-zero-frame = <0x40>;
-            color-mapping = <LED_COLOR_ID_RED
-                             LED_COLOR_ID_GREEN
+            color-mapping = <LED_COLOR_ID_GREEN
+                             LED_COLOR_ID_RED
                              LED_COLOR_ID_BLUE>;
         };
     };
@@ -48,12 +48,11 @@
     status = "okay";
 };
 / {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-    EXT_POWER  {
-    compatible = "zmk,ext-power-generic";
-    control-gpios = <&gpio0 19 GPIO_ACTIVE_HIGH>; /* WS2812_CE */
-    init-delay-ms = <100>;
+    matrix_power_leds {
+        compatible = "gpio-leds";
+
+        matrix_power: matrix_power {
+            gpios = <&gpio0 19 GPIO_ACTIVE_HIGH>; /* WS2812_CE */
+        };
     };
 };

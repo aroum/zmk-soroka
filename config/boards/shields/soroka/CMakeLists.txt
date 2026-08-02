@@ -1,1 +1,1 @@
-target_sources(app PRIVATE status_led.c)
+target_sources(app PRIVATE matrix_animation.c)

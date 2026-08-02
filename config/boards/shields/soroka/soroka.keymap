@@ -16,8 +16,6 @@
 #define LWR   1
 #define RSE   2
 #define ADJ  3
-#define EXT1  4
-#define EXT2  5
 
 &lt { quick-tap-ms = <200>; };
 &mt { quick-tap-ms = <200>; };
@@ -25,7 +23,6 @@
 / {
     macros {
         numdot: numdot {
-            label = "ZM_numdot";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
@@ -77,24 +74,13 @@
         ADJ_layer {
             display-name = "ADJ";
             bindings = <
-                &studio_unlock &bootloader   &none  &none &none   &none &none &kp F8   &kp F9 &kp F10  &kp  F11  &kp F12   &none   &none
+                &none          &bootloader   &none  &none &none   &none &none &kp F8   &kp F9 &kp F10  &kp  F11  &kp F12   &none   &none
                 &kp LCTRL      &none   &none   &none   &none    &none    &none    &none   &none   &none   &none   &none       &none 
                 &kp LSHFT         &none  &none   &none     &none   &none    &none    &none    &none   &none    &none   &none  &none 
-                &kp LCTRL &kp LALT &kp  LGUI       &none      &kp LSHFT        &kp LSHFT         &none          &kp LGUI &kp LALT &kp K_APP                 &check_bat           
+                &kp LCTRL &kp LALT &kp  LGUI       &none      &kp LSHFT        &kp LSHFT         &none          &kp LGUI &kp LALT &kp K_APP                 &none
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
-        EXT1 {
-            display-name = "EXT1";
-            status = "reserved";
-        };
-
-        EXT2 {
-            display-name = "EXT2";
-            status = "reserved";
-        };
     };
 };
-
-
