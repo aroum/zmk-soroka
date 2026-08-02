@@ -4,6 +4,8 @@ This repository builds wired USB firmware for the
 [Soroka](https://github.com/kapee1/soroka/) keyboard on a SparkFun Pro Micro
 RP2040-compatible controller. The encoder and the 5x5 WS2812 RGB matrix are
 enabled. The matrix shows a small heart animation after power-on.
+ZMK Studio is available over the same USB connection and does not require an
+unlock key.
 
 GitHub Actions is pinned to the stable ZMK `v0.3` release. Download the UF2
 artifact from a successful workflow run, enter the RP2040 bootloader, and copy

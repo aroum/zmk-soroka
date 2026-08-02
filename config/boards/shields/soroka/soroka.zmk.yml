@@ -8,5 +8,6 @@ features:
   - keys
   - encoder
   - underglow
+  - studio
 siblings:
   - soroka
