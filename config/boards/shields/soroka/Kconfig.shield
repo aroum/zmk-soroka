@@ -1,5 +1,5 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config soroka
+config SHIELD_SOROKA
     def_bool $(shields_list_contains,soroka)
